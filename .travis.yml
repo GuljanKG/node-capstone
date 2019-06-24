@@ -1,2 +1,9 @@
 language: node_js
 node_js: node
+deploy: powerful-falls-42076
+  provider: heroku
+  api_key:
+    secure: UHhvI58f3oF8vw4QvTWDKSDvsyt/sLFnYCPVPVCr+Ozki8SM0zNSbSKZBGrIRqOSlKvIVZx8fbYDfKbk7yLXE8lXaGWJI42M1Kj9siuHCKv1XM/M20ActEClfxebdXt8I823SePu0T5v3XZO4U/wQtNwoW35SlPX2Y74dljBY3zrMgxh4wdepMzxxS8AI/KQ2Ppc/BZ1kZkGFf0gvEtfGx+0/o98j4LyVwP7GWCioIaouN6O/q8r64ITlpuY8ULhgjyCgy8DNYOg3r86cy7rsgH7k6nBo3pvnuOa/AJ0chR7kUjwXXyhtBFxTlSEanAeVqstGcYb+etiKamhyvNax5DCjycr0MSWWCbyp8JdeCBxVdxWsBvfj3wXFmde2NebZPxIhT+7os6p+ukVQsxrd4IsffGlwm/aRs5dxNKrYKXIjiZ8ETygPOTUXyVGyCGrsncRCq4tANlIruJRWofIJ9on6ybnOfgHo5pL30nUXHfD1IU5dgxUwdw1LxO2Gm6zCRAc8hhwqf7JuJwBvVNu6nOXFiCuAtayjaJZUR6qYu4Fq7Wl4E//S7y/jd6NxNw/HigDaNmS3/b1QFAyX9pnNGRsJupXJWtpsqGRfh4fjq+L4DwCarpAXxjpZHhiKl5hLXKlBArLFYQCZr0zpp2aQ0ULGvVVaXdw+VjAkmZu68I=
+  app: node-capstone
+  on:
+    repo: GuljanKG/node-capstone
