@@ -1,6 +1,6 @@
 language: node_js
 node_js: node
-deploy: powerful-falls-42076
+deploy:app: powerful-falls-42076
   provider: heroku
   edge: true
   api_key:
